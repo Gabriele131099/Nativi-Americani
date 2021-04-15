@@ -1,0 +1,1042 @@
+*
+{
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.titolo       /* titolo  */
+{
+  color: darkred;
+  font-size: 4vw;
+  font-family: 'Righteous', cursive;
+}
+
+.sottotitolo    /* sottotitolo  */
+{
+  color: black;
+  font-size: 2vw;
+  font-family: 'Gentium Book Basic', serif;
+  border: 1px solid black;
+  padding: 1vw;
+}
+
+.paragrafo  , .paragrafo1    /* Testo Storia */
+{
+  font-size: 20px;
+  background-color: lightgrey;
+  border-radius: 50px;
+  width: 80%;
+  margin: auto;
+  padding: 2%;
+  position: relative;
+}
+
+.testo3       /* testo paragrafi home */
+{
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  background-color: grey;
+  position: relative;
+  float: left;
+  margin: 2%;
+}
+
+.testo4      /* testo paragrafi home */
+{
+  font-size: 30px;
+  color: darkred;
+  text-align: center;
+  background-color: grey;
+  position: relative;
+  float: left;
+}
+
+.sottotitolo13      /* testo paragrafi home */
+{
+  font-size: 30px;
+  color: darkred;
+  text-align: center;
+  left: 10%;
+  background-color: grey;
+  position: relative;
+  float: left;
+  width: 50vw;
+  font-family: 'Gentium Book Basic', serif;
+}
+
+.rowcar > .sottotitolo13
+{
+  margin-left: 5%;
+  margin-top: 10%;
+}
+/* comandi titolo e sottotitolo  */
+
+.titolo , .sottotitolo
+{
+  width: 50vw;
+  background-color: lightgrey;
+  position: relative;
+}
+
+
+
+.pulsante , .pulsante1 , .pulsantenews /* Pulsante */
+{
+  background-color: rgba( 192 , 192 , 192 , 0.5);
+  color: black;
+  border: 1px solid black;
+  border-radius: 50px;
+  font-size: 1vw;
+  text-align: center;
+  position: relative;
+  top: 80%;
+  font-family: 'Gentium Book Basic', serif;
+
+}
+
+.pulsante1   /* Pulsante fratelli animali */
+{
+  width: 60%;
+}
+
+.pulsante  ,  .pulsantenews   /* Pulsante Home*/
+{
+  width: 98%;
+}
+
+.pulsante1
+{
+  font-size: 30px;
+}
+
+.pulsantenews :hover
+{
+  background-color: darkred;
+  color: black;
+}
+
+.formanome
+{
+  border-radius: 50px;
+  font-size: 20px;
+  height: 3vh;
+
+}
+
+.formaemail
+{
+  border-radius: 50px;
+  font-size: 20px;
+  height: 3vh;
+  width: 70%;
+}
+
+.newsletter
+{
+    font-size: 60px;
+    color: darkred;
+    background-color: lightgrey;
+    text-align:center;
+}
+
+.newsletterinfo
+{
+  float: bottom;
+}
+
+.pulsante > a
+{
+  color: black;
+}
+
+.centra  , .contenitorecristoforo , .contenitore , .titolo , .sottotitolo  , .contenitorehome   , .contenitoretext , .contenitorevik, .contenitoreub
+{
+  left: 50%;
+  transform: translate(-50%, 0%);
+  text-align: center;
+}
+
+.contenitorecristoforo
+{
+  width: 80%;
+  height: auto;
+  background-color: lightgrey;
+  position: absolute;
+
+}
+
+.contenitore    /* contenitore layout */
+{
+  background-color: rgba(125,125,125,0.6);
+  position: absolute;
+  width: 47vw;
+}
+
+.contenitoreub    /* contenitore layout Uomo Bianco*/
+{
+  background-color: rgba(125,125,125,0.6);
+  position: absolute;
+  width: 70vw;
+}
+
+.contenitorevik    /* contenitore layout Vikinghi*/
+{
+  background-color: rgba(125,125,125,0.6);
+  position: absolute;
+  width: 90vw;
+}
+
+.contenitorehome    /* contenitore layout home*/
+{
+  background-color: rgba(125,125,125,0.6);
+  position: absolute;
+  width: 66vw;
+}
+
+
+
+
+
+/* Menu laterale */
+.bottonefr
+{
+  border: 1px solid black;
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  background-color: grey ;
+  height: 5vh;
+  color: black;
+  font-size: 20px;
+  font-family: 'Gentium Book Basic', serif;
+  text-align: center;
+  margin-top: 2vh;
+  padding-bottom: 1vh;
+  line-height: 1vh;
+}
+
+/* quando passa il puntatore Bottone menù laterale  */
+.bottonefr :hover
+{
+  color: black;
+  background-color: lightgrey;
+
+
+}
+
+              /* RIGHE */
+.testopg , .pg1b , .pg1a , .rowpg1b , .rowpg1a , .rowct1b , .rowct1a , .testoct , .rowCT ,
+.row137d , .row137c , .row137b , .row137a , .row136b ,  .row136a , .row135c ,
+.row135b , .row135a , .row134b , .row134a , .row133b , .row133a , .row132b ,
+.row132a , .row131b , .row131a , .rowarr6a , .rowarr5a , .rowarr5b , .rowarr4a ,
+.rowarr4b , .rowarr3a , .rowarr3b , .rowarr2a , .rowarr2b , .rowarr1a ,
+.rowarr1b , .rowcursp1 , .rowcursp2 , .rowcur , .rowcur2 , .rowcur3 , .rowcur4 ,
+.rowfr , .rowfa , .row , .rowcul , .rowhome , .testo3 , .rowrcr1 , .rowcr2 , .rowcr3 , .rowcr4 ,
+.rowcr5a , .rowcr5b , .rowcr5c , .rowcr6a , .rowcr6b , .rowvitacr1 , .rowvitacr2 , .rowvitacr3 , .rowvitacr4 ,
+.rowvitacr5a , .rowvitacr5b , .rowvitacr5c , .rowvitacr6a , .rowvitacr6b , .rowcar1 , .rowcar2 , .rowcar3 , .rowcar4 ,
+.rowcar
+{
+  border: 1px solid black;
+  position: relative;
+  float: left;
+  margin: 1%;
+}
+/* riga fr animali */
+
+.rowcar
+{
+  background-image: url('car.jpg');
+  width: 98%;
+  height: 20vh;
+  background-position: center;
+
+
+}
+.rowcar1
+{
+  width: 31%;
+  height: 30vh;
+  background-color: lightgrey;
+}
+
+.rowcar2
+{
+  width: calc(32% - 12px);
+  height: 50vh;
+  background-color: darkred;
+  background-image: url('car1.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.rowcar3
+{
+  width: calc(32% - 12px);
+  height: 50vh;
+  background-color: darkred;
+  background-image: url('car2.jpg');
+  background-size: cover;
+  background-position: center;
+
+}
+
+
+.rowcar4
+{
+  width: calc(32% - 12px);
+  height: 50vh;
+  background-image: url('car3.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.rowcr1
+{
+  width: 98%;
+  height: 50vh;
+  background-image: url('cr1.jpg');
+  background-size: cover;
+  background-position: center;
+  margin: auto;
+}
+
+.rowcr2
+{
+  width: 64%;
+  height: 40vh;
+}
+
+.rowcr3
+{
+  width: 32%;
+  height: 40vh;
+  background-image: url('cr2.gif');
+  background-size: cover;
+
+}
+
+.rowcr4
+{
+  width: 98%;
+  height: auto;
+}
+
+.rowcr6a
+{
+  height: 30vh;
+  width: 60%;
+}
+
+.rowcr6b
+{
+  height: 30vh;
+  width: 36%;
+  background-image: url('car2.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.rowcr5a
+{
+  height: 30vh;
+  width: 31%;
+  background-image: url('cr5a.jpg');
+}
+
+.rowcr5b
+{
+  height: 30vh;
+  width: 31%;
+  background-image: url('cr5b.jpg');
+}
+
+.rowcr5c
+{
+  height: 30vh;
+  width: 31%;
+  background-image: url('cr5c.jpg');
+}
+
+.rowvitacr1
+{
+  width: 98%;
+  height: 50vh;
+  background-image: url('cr1.jpg');
+  background-size: cover;
+  background-position: center;
+  margin: auto;
+}
+
+.rowvitacr2
+{
+  width: 64%;
+  height: 20vh;
+}
+
+.rowvitacr3
+{
+  width: 32%;
+  height: 40vh;
+  background-image: url('vcr1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.rowvitacr4
+{
+  width: 98%;
+  height: auto;
+}
+
+.rowvitacr6a
+{
+  height: 30vh;
+  width: 60%;
+}
+
+.rowvitacr6b
+{
+  height: 30vh;
+  width: 36%;
+  background-image: url('vcr2.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.rowvitacr5a
+{
+  height: 20vh;
+  width: 31%;
+  background-image: url('cr1.jpg');
+  background-position: center;
+  background-size: cover;
+
+}
+
+.rowvitacr5b
+{
+  height: 20vh;
+  width: 31%;
+  background-image: url('car.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.rowvitacr5c
+{
+  height: 20vh;
+  width: 31%;
+  background-image: url('cr5c.jpg');
+}
+
+.rowCT
+{
+  width: 98%;
+  height: 40vh;
+  background-image: url('ct.jpg');
+  background-size: cover;
+  background-position: center;
+
+}
+.rowct1a
+{
+  width: 48%;
+  height: 40vh;
+  background-image: url('ct1a.jpg');
+    background-size: cover;
+}
+
+.sfondoct
+{
+  background-image: url('sfondoct.jpg');
+  background-position: center;background-size: cover;
+  background-attachment: fixed;
+}
+.rowct1b
+{
+  width: 48%;
+  height: 40vh;
+  background-image: url('ct1b.jpg');
+  background-size: cover;
+}
+.testoct
+{
+  font-size: 50px;
+  text-align: center;
+  width: 30%;
+  top: 70%;
+  left: 30%;
+  background-color: rgba(125, 125, 125, 0.4);
+
+}
+
+
+
+.rowpg1a
+{
+  width: 98%;
+  background-color: black;
+
+}
+
+
+.pg1a
+{
+  font-size: 4vw;
+  width: 60%;
+  height: 60vh;
+  background-color: grey;
+  left: 5%
+}
+
+.pg1b
+{
+  font-size: 4vw;
+  width: 60%;
+  height: 60vh;
+  background-color: grey;
+  right: 5%;
+  float: right;
+}
+
+
+.destra > .testo3
+{
+  right: 5%;
+  float: right;
+  width: 40%;
+  height: 40vh;
+  padding: 1%;
+  margin-top: 10%;
+  position: absolute;
+  word-wrap: break-word;
+}
+
+.sinistra > .testo3
+{
+  left: 5%;
+  float: left;
+  width: 40%;
+  height: 40vh;
+  margin-top: 10%;
+  padding: 1%;
+  position: absolute;
+  word-wrap: break-word;
+}
+
+
+
+.row131a
+{
+width: 60%;
+height: 55vh;
+}
+
+.row131b
+{
+width: 36%;
+height: 55vh;
+}
+
+.row132a
+{
+  width: 30%;
+  height: 62vh;
+}
+
+.row132b
+{
+  width: 66%;
+  height: 62vh;
+}
+
+.row133a
+{
+width: 50%;
+height: 50vh;
+}
+
+.row133b
+{
+width: 46%;
+height: 50vh;
+}
+
+.row134a
+{
+  width: 30%;
+  height: 62vh;
+}
+
+.row134b
+{
+  width: 66%;
+  height: 62vh;
+}
+
+.row135a
+{
+  width: 98%;
+  height: 39vh;
+}
+
+.row135b
+{
+  width: 48%;
+  height: 35vh;
+}
+
+.row135c
+{
+  width: 48%;
+  height: 35vh;
+}
+
+.row136a
+{
+width: 66%;
+height: 40vh;
+}
+.row136b
+{
+width: 30%;
+height: 40vh;
+}
+
+.row137a
+{
+  width: 98%;
+  height: 38vh;
+}
+
+.row137b
+{
+  width: 36%;
+  height: 30vh;
+}
+
+.row137c
+{
+  width: 60%;
+  height: 30vh;
+}
+
+.row137d
+{
+   width: 98%;
+}
+
+
+.rowarr1a
+{
+  height: 70vh;
+  width: 68%;
+}
+
+.rowarr1b
+{
+  height: 70vh;
+  width: 28%;
+}
+
+.rowarr2a
+{
+  height: 55vh;
+  width: 28%;
+}
+
+.rowarr2b
+{
+  height: 55vh;
+  width: 68%;
+}
+
+.rowarr3a
+{
+  height: 65vh;
+  width: 98%;
+}
+
+.rowarr3b
+{
+  height: 102vh;
+  width: 31%;
+}
+
+.rowarr4a
+{
+  height: 50vh;
+  width: 65%;
+}
+
+
+.rowarr4b
+{
+  height: 50vh;
+  width: 18%;
+}
+
+.rowarr5a
+{
+  height: 50vh;
+  width: 45%;
+}
+
+
+.rowarr5b
+{
+  height: 65vh;
+  width: 98%;
+}
+
+.rowarr6a
+{
+width: 60%;
+}
+
+.rowfr
+{
+padding-right: 2vw;
+width: 20vw;
+}
+
+.rowfa
+{
+  height: 20vh;
+  width: 48%;
+}
+
+.rowhome
+{
+  height: 50vh;
+  width: 48%;
+}
+
+.rowcul
+{
+  height: 70vh;
+  width: 48%;
+}
+
+.row       /* Riga Home Page */
+{
+  height: 50vh;
+  width: 31%;
+}
+
+/* comandi righe Layout */
+.rowfa :hover
+{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.row :hover
+{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.rowcursp1     /* Righe Curiosità */
+{
+  height: 45vh;
+  width: 98%;
+  border: 1px solid black;
+  position: relative;
+  float: left;
+  margin: 1%;
+}
+
+.rowcursp2
+{
+  height: 45vh;
+  width: 48%;
+}
+.rowcur     /* Righe Curiosità */
+{
+  height: 45vh;
+  width: 98%;
+}
+
+.rowcur2
+{
+  height: 45vh;
+  width: 31%;
+}
+.rowcur3
+{
+  height: 45vh;
+  width: 31%;
+}
+
+.rowcur4
+{
+  height: 45vh;
+  width: 32%;
+}
+
+/* comandi righe Layout */
+.rowcur :hover
+{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.rowcur2 :hover
+{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.rowcur3 :hover
+{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.rowcur4 :hover
+{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Menè e Tende */
+.menuo , .menuv
+{
+  background-color: black;
+  text-align: center;
+  color: white;
+  position: relative;
+  width: 20vw;
+  padding: 1%;
+}
+
+.menucodea , .menucodeb
+{
+  background-color: black;
+  text-align: center;
+  color: white;
+  position: relative;
+  width: 10vw;
+  padding: 1%;
+  margin-top: 30%;
+}
+
+.menuv
+{
+  float: left;
+  margin-left: 2%;
+}
+
+.menuo
+{
+  float: right;
+  margin-right: 2%;
+}
+
+.menucodea
+{
+  float: left;
+  margin-left: 2%;
+}
+
+.menucodeb
+{
+  float: right;
+  margin-right: 2%;
+}
+
+
+/* MENù delle pagine principali */
+/* rettangolo menù */
+
+.rettangolodx , .rettangolosx
+{
+  width: 20vw;
+  background-color: rgba(125,125,125,0.6);
+  position: relative;
+  top: 20vh;
+}
+
+.rettangolodx
+{
+  float: right;
+}
+
+.rettangolosx
+{
+  float: left;
+}
+
+.menu
+{
+  background-color: black;
+  text-align: center;
+  color: white;
+  width: 100%;
+  padding: 1%;
+}
+
+.forma-tenda
+ {
+  background-color: black;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.tenda
+{
+  position: relative;
+  display: inline-block;
+}
+
+.contenuto-tenda
+{
+  display: none;
+  position: absolute;
+  background-color: lightgrey;
+  min-width: 200px;
+  z-index: 1;
+}
+
+.contenuto-tenda a
+{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+a
+{
+  color: white;
+}
+
+.contenuto-tenda a:hover
+{
+  background-color: white;
+}
+
+.tenda:hover .contenuto-tenda
+{
+  display: block;
+}
+
+.tenda:hover .forma-tenda
+{
+  background-color: grey;
+}
+
+.contenitoreomeopatia
+{
+  position: relative;
+  width: 75vw;
+  left: 55%;
+  transform: translate(-50%, 0%);
+  text-align: center;
+  float: left;
+}
+
+.ottagono , .ottagono1 , .ottagono2 
+{
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  width: 400px;
+  margin: 10px solid black;
+  background : rgba(255, 0, 0, 0.0);
+  margin-top:  5%;
+  margin-right: 1%;
+  float: left;
+
+}
+
+.ottagono1
+{
+  margin-top:  5%;
+}
+
+.ottagono:after
+{
+   background-image: url('matprim.jpg');
+   background-size: cover;
+   background-position: center;
+  bottom: 0;
+  content: '';
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.ottagono:hover
+{
+  background-color: black;
+}
+
+.ottagono1:after 
+{
+  background-image: url('salrit.jpg');
+  background-size: cover;
+  background-position: center;
+ bottom: 0;
+ content: ' ';
+ left: 0;
+ position: absolute;
+ right: 0;
+ top: 0;
+ -moz-transform: rotate(-45deg);
+ -ms-transform: rotate(-45deg);
+ -o-transform: rotate(-45deg);
+ -webkit-transform: rotate(-45deg);
+ transform: rotate(-45deg);
+}
+
+.ottagono2:after 
+{
+  background-image: url('str.jpg');
+  background-size: cover;
+  background-position: center;
+ bottom: 0;
+ content: '';
+ left: 0;
+ position: absolute;
+ right: 0;
+ top: 0;
+ -moz-transform: rotate(-45deg);
+ -ms-transform: rotate(-45deg);
+ -o-transform: rotate(-45deg);
+ -webkit-transform: rotate(-45deg);
+ transform: rotate(-45deg);
+}
+
+.rowomeopatia
+{
+  position: relative;
+  float: left;
+  margin: 1%;
+  height: 20vh;
+  width: 350px;
+  background-color: lightslategray;
+  margin-right: 55px;
+  border-radius: 50px;;
+
+
+}
+
+.rowomeopatia > strong
+{
+  color: maroon;
+  font-size: 30px;
+}

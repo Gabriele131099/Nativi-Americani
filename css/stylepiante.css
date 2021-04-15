@@ -1,0 +1,99 @@
+.rowpiante , .subrowpiantea , .subrowpianteb
+{
+    position: relative;
+    float: left;
+    margin: 1%;
+}
+
+
+
+  .contsx , .contdx 
+{
+  position: relative;
+  background-color: darkgray;
+  border: 1px solid black;
+}
+
+.contsx
+{
+  float: left;
+  width: 25vw;
+  height: 100vh;
+  margin-left: 5vw;
+}
+
+.contdx
+{
+    width: 60vw;
+    height: 100vh;
+    float: right;
+    margin-right: 5vw;
+}
+
+.pulsantepiante
+{
+    position: relative;
+    width: 20vw;
+    height: 5vh;
+    background-color: maroon;
+    margin: 1%;
+}
+.centra , .pulsantepiante 
+{
+    left: 50%;
+    transform: translate(-50%, 0%);
+    text-align: center;
+}
+
+.rowpiante
+{
+  width: 98%;
+  background-color:grey;
+  height: 30vh;
+
+}
+
+
+.subrowpiantea
+{
+  font-size: 4vw;
+  width: 60%;
+  height: 28vh;
+  background-color: lightgray;
+  left: 5%
+}
+
+.subrowpianteb
+{
+  font-size: 4vw;
+  width: 60%;
+  height: 28vh;
+  background-color: lightgray;
+  right: 5%;
+  float: right;
+}
+
+
+.destra > .testo3
+{
+  right: 5%;
+  float: right;
+  width: 40%;
+  height: 20vh;
+  padding: 1%;
+  margin-top: 5%;
+  position: absolute;
+  word-wrap: break-word;
+}
+
+.sinistra > .testo3
+{
+  left: 5%;
+  float: left;
+  width: 40%;
+  height: 20vh;
+  margin-top: 5%;
+  padding: 1%;
+  position: absolute;
+  word-wrap: break-word;
+}
